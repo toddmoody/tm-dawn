@@ -3,6 +3,13 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "medium"
+          }
+        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -13,18 +20,11 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "medium"
-          }
         }
       },
       "block_order": [
-        "button",
-        "heading"
+        "heading",
+        "button"
       ],
       "settings": {
         "image_height": "medium",
