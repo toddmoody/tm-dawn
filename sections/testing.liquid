@@ -1,22 +1,16 @@
-<h2>{{ section.settings.section_title | escape }}</h2>
-{{ section.settings.text }}
+{{ 'section-testing.css' | asset_url | stylesheet_tag }}
 
-<h3>This is some hard coded text in an h3.</h3>
-
-{% stylesheet %}
-    h2 {
-        color: tomato;
-    }
-{% endstylesheet %}
-
-{% javascript %}
-    alert('this is some test javascript in a test section!!!');
-{% endjavascript %}
+<div class="{% unless section.settings.full_width %}page-width{% endunless %}">
+    <h2>{{ section.settings.section_title | escape }}</h2>
+    {{ section.settings.text }}
+    <h3>This is some hard coded text in an h3.</h3>
+</div>
 
 {% schema %}
 {
   "name": "Testing",
-  "settings": [
+  "tag": "section",
+  "settings": [ 
     {
       "type": "text",
       "id": "section_title",

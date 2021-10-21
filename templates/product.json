@@ -125,11 +125,19 @@
         "button_link": "",
         "swipe_on_mobile": false
       }
+    },
+    "1634851777188f42e9": {
+      "type": "testing",
+      "settings": {
+        "section_title": "Talk about your brand",
+        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
-    "1634775472170468ba"
+    "1634775472170468ba",
+    "1634851777188f42e9"
   ]
 }
