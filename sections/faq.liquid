@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="{{ 'section-faq.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'section-faq.css' | asset_url | stylesheet_tag }}</noscript>
+
+<div class="{% unless section.settings.full_width %}page-width{% endunless %}">
+  <div class="faq">
+    <div class="rich-text__blocks">
+      <div class="faq">
+        <div class="tab">
+          <input type="checkbox" id="tab1" class="tab-toggle" />
+          <label for="tab1" class="tab-label">How to refund?</label>
+          <div class="tab-content">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
+            corrupti optio blanditiis expedita repudiandae alias laborum. Ducimus
+            cumque facilis dicta explicabo nostrum, quia voluptate inventore natus
+            accusantium id, nemo magni.
+          </div>
+        </div>
+        <div class="tab">
+          <input type="checkbox" id="tab2" class="tab-toggle" />
+          <label for="tab2" class="tab-label">How to refund?</label>
+          <div class="tab-content">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus
+            corrupti optio blanditiis expedita repudiandae alias laborum. Ducimus
+            cumque facilis dicta explicabo nostrum, quia voluptate inventore natus
+            accusantium id, nemo magni.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "faq",
+  "tag": "section",
+  "class": "spaced-section spaced-section--full-width",
+  "settings": [
+  ],
+  "blocks": [
+  ],
+  "presets": [
+  ]
+}
+{% endschema %}

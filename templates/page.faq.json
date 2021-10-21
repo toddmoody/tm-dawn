@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page"
+    },
+    "faq": {
+      "type": "faq",
+      "settings": {
+        "heading": "This could be the heading for faq",
+      }
+    }
+  },
+  "order": ["main", "faq"]
+}
