@@ -1,4 +1,30 @@
-<div class="awesome">
-    <h1>{{ product.price | money_with_currency }}<h1>
-        <p>This is an awesome new section that I have added with some hard coded text!</p>
-</div>
+<h2>{{ section.settings.section_title | escape }}</h2>
+{{ section.settings.text }}
+
+<h3>This is some hard coded text in an h3.</h3>
+
+{% schema %}
+{
+  "name": "Testing",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Title",
+      "default": "Talk about your brand"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testing",
+      "category": "Text"
+    }
+  ]
+}
+{% endschema %}
