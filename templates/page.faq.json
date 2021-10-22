@@ -6,7 +6,7 @@
     "faq": {
       "type": "faq",
       "settings": {
-        "heading": "This could be the heading for faq",
+        "heading": "This could be the heading for faq"
       }
     }
   },
