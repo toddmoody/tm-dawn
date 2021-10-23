@@ -14,10 +14,18 @@
             "question": "This is the first question!",
             "answer": "<p>This is the answer to the first question!<\/p>"
           }
+        },
+        "34679234-7059-4e30-96ca-b8fe56e4801c": {
+          "type": "text",
+          "settings": {
+            "question": "This is the second question.",
+            "answer": "<p>This is the answer to the second question.<\/p>"
+          }
         }
       },
       "block_order": [
-        "2d42727b-f6eb-428e-95f3-2ecb45636c7a"
+        "2d42727b-f6eb-428e-95f3-2ecb45636c7a",
+        "34679234-7059-4e30-96ca-b8fe56e4801c"
       ],
       "settings": {
       }
