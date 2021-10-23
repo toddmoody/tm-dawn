@@ -4,7 +4,18 @@
 
 <div class="{% unless section.settings.full_width %}page-width{% endunless %}">
   <div class="faq">
-    <div class="rich-text__blocks">
+
+    {% for block in section.blocks %}
+      <div class="tab">
+        <input type="checkbox" id="tab{{forloop.index}}" class="tab-toggle" />
+        <label for="tab{{forloop.index}}" class="tab-label">{{block.settings.question}}</label>
+        <div class="tab-content">
+         {{block.settings.answer}}
+        </div>
+      </div>
+    {% endfor %}
+
+    {% comment %} <div class="rich-text__blocks">
       <div class="faq">
         <div class="tab">
           <input type="checkbox" id="tab1" class="tab-toggle" />
@@ -27,7 +38,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> {% endcomment %}
   </div>
 </div>
 
