@@ -20,11 +20,12 @@
   background-color: rgb(37, 90, 158);
 }
 .faq .tab-label::after {
-  content: "\276F";
+  content: "\002B";
   transition: all 0.4s;
 }
 .faq .tab-toggle:checked ~ .tab-label::after {
-  transform: rotate(90deg);
+  /* transform: rotate(90deg); */
+  content: "\002D";
 }
 .faq .tab-content {
   background-color: white;
