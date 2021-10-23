@@ -1,14 +1,30 @@
 {
   "sections": {
     "main": {
-      "type": "main-page"
+      "type": "main-page",
+      "settings": {
+      }
     },
     "faq": {
       "type": "faq",
+      "blocks": {
+        "2d42727b-f6eb-428e-95f3-2ecb45636c7a": {
+          "type": "text",
+          "settings": {
+            "question": "This is the first question!",
+            "answer": "<p>This is the answer to the first question!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "2d42727b-f6eb-428e-95f3-2ecb45636c7a"
+      ],
       "settings": {
-        "heading": "This could be the heading for faq"
       }
     }
   },
-  "order": ["main", "faq"]
+  "order": [
+    "main",
+    "faq"
+  ]
 }
