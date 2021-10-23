@@ -21,11 +21,19 @@
             "question": "This is the second question.",
             "answer": "<p>This is the answer to the second question.<\/p>"
           }
+        },
+        "1ddd076e-c88a-4da7-974f-4b9abe348a71": {
+          "type": "text",
+          "settings": {
+            "question": "How long does the delivery take?",
+            "answer": "<p>Unsure to be honest.<\/p>"
+          }
         }
       },
       "block_order": [
         "2d42727b-f6eb-428e-95f3-2ecb45636c7a",
-        "34679234-7059-4e30-96ca-b8fe56e4801c"
+        "34679234-7059-4e30-96ca-b8fe56e4801c",
+        "1ddd076e-c88a-4da7-974f-4b9abe348a71"
       ],
       "settings": {
       }
